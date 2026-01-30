@@ -23,15 +23,13 @@ public class Slowfast extends LL{
 		return curr.data;
 	}
 	
-	
-	
 	public static void main(String[] args) {
-		LL list = new LL();
-		list.addfirst(10);
-		list.addlast(20);
-		list.addlast(30);
-		list.addlast(40);
-		list.printlist();
-	
-	}
-}
+	Slowfast list = new Slowfast();
+
+	list.addfirst(10);
+	list.addlast(20);
+	list.addlast(30);
+	list.addlast(40);
+
+	list.printlist();
+	System.out.println(list.atIndex(2)); // 30
