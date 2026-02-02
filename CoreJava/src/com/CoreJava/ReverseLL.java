@@ -78,17 +78,8 @@ public class ReverseLL {
 			slow = slow.next;
 //			fast = fast.next.next;
 		}
-//		return slow.data;
-		while(slow.next != null) {
-			System.out.println(slow.data + " --> ");
-		}
-		re
-		
-	}
+		return slow.data;
 	
-	 public ListNode middleNode(ListNode head) {
-	        if()
-	    }
 	
 	
 	
